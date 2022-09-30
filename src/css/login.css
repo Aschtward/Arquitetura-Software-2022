@@ -1,5 +1,5 @@
 body{
-    background-image: url('/src/img/Background_Overlay.png');
+    background-image: url('/Arquitetura-Software-2022/src/img/Background_Overlay.png');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
@@ -55,14 +55,14 @@ input{
 }
 
 .mail{
-    background-image: url('/src/img/icon/mail.png');
+    background-image: url('/Arquitetura-Software-2022/src/img/icon/mail.png');
     background-repeat: no-repeat;
     background-position:left;
     background-position-x: 15px;
 }
 
 .password{
-        background-image: url('/src/img/icon/password.png');
+        background-image: url('/Arquitetura-Software-2022/src/img/icon/password.png');
         background-repeat: no-repeat;
         background-position:left;
         background-position-x: 10px;
