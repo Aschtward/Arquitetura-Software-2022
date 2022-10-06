@@ -80,6 +80,14 @@ form button{
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: -10px 10px 10px rgb(71, 71, 71) ;
+    cursor: pointer;
+    transition: .3s;
+}
+
+form button:hover{
+background-color: white;
+color:#C44900;
+border: solid 2px #C44900;
 }
 
 .sign-up{
@@ -96,6 +104,9 @@ form input{
     background-color: rgba(255, 255, 255, 0);
     height: 46px;
     width: 295px;
+    color: white;
+    font-size: 16px;
+    outline: 0;
     border: solid 1px white;
     border-radius: 8px;
     padding-left: 50px;
