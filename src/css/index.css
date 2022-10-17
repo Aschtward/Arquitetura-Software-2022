@@ -1,0 +1,53 @@
+body{
+    background-image: url("/Arquitetura-Software-2022/src/img/Background_Settings.png");
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background: radial-gradient(173.53% 165.96% at 137.25% -43.23%, rgba(196, 73, 0, 0.4125) 0%, rgba(0, 4, 37, 0.2625) 49.54%, rgba(20, 48, 102, 0.0375) 100%);
+    width: 150px;
+    height: 100vh;
+    text-align: center;
+}
+
+.background{
+    margin-top: 25px;
+}
+
+h2{
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #C44900;
+}
+
+.menu{
+    margin-top: 60px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.icon{
+    width: 36;
+    height: 32px;
+} 
+
+a{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+

@@ -9,7 +9,7 @@ body{
 
 header{
     background: radial-gradient(173.53% 165.96% at 137.25% -43.23%, rgba(196, 73, 0, 0.4125) 0%, rgba(0, 4, 37, 0.2625) 49.54%, rgba(20, 48, 102, 0.0375) 100%);
-    width: 500px;
+    width: 302px;
     height: 100vh;
     text-align: center;
 }
@@ -33,18 +33,23 @@ h2{
 .menu div{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
+
+.icon{
+    width: 36;
+    height: 32px;
+} 
 
 a{
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: white;
 }
 
 .log-out{
-    margin-top: 25px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +63,7 @@ a{
 }
 
 .label-mail{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .password, .confir-pass{
@@ -75,13 +80,6 @@ a{
     background-position-x: 10px;
 }
 
-.country{
-    background-image: url('/Arquitetura-Software-2022/src/img/icon/city.png');
-    background-repeat: no-repeat;
-    background-position:left;
-    background-position-x: 10px;
-}
-
 form{
     display: flex;
     flex-direction: column;
@@ -89,7 +87,7 @@ form{
 
 form input{
     background-color: rgba(255, 255, 255, 0);
-    height: 46px;
+    height: 36px;
     width: 295px;
     color: white;
     font-size: 16px;
@@ -103,7 +101,7 @@ form input{
 
 h1{
     font-size: 35px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 span{
@@ -126,15 +124,22 @@ main{
     height: 500px;
 }
 
+.button{
+    height: 46px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 button{
     background-color: #C44900;
     height: 46px;
-    width: 100%;
-    border: 1px solid white;
+    width: 50%;
+    border: none;
     border-radius: 8px;
-    margin-top: 185px;
+    margin-top: 250px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     box-shadow: -10px 10px 10px rgb(71, 71, 71) ;
     cursor: pointer;
     transition: .3s;
@@ -143,5 +148,5 @@ button{
 button:hover{
     background-color: white;
     color:#C44900;
-    border: solid 2px #C44900;
+    border: none;
 }
