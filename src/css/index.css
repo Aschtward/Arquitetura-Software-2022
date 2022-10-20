@@ -1,5 +1,5 @@
 body{
-    background-image: url("/Arquitetura-Software-2022/src/img/Background_Settings.png");
+    background-image: url("../img/Background_Settings.png");
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -9,9 +9,8 @@ body{
 
 header{
     background: radial-gradient(173.53% 165.96% at 137.25% -43.23%, rgba(196, 73, 0, 0.4125) 0%, rgba(0, 4, 37, 0.2625) 49.54%, rgba(20, 48, 102, 0.0375) 100%);
-    width: 150px;
+    width: 180px;
     height: 100vh;
-    text-align: center;
 }
 
 .background{
@@ -20,9 +19,10 @@ header{
 
 h2{
     font-size: 12px;
+    margin-top: 15px;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #C44900;
+    color: #FF5F00;
 }
 
 .menu{
@@ -35,7 +35,7 @@ h2{
 .menu div{
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .icon{
@@ -50,4 +50,147 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories{
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px rgb(71, 71, 71);
+    width: 1087px;
+    height: 71px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px auto 15px 130px;
+}
+
+main{
+    width: 100%;
+}
+
+.content_max{
+    background-color: white;
+    width: 634px;
+    height: 313px;
+    border-radius: 10px;
+    background-image: url("../img/icon/categories/whey_max.png");
+    position: relative;
+    box-shadow: -10px 10px 10px rgb(71, 71, 71);
+}
+
+.information {
+    background: rgba(94, 94, 94, 0.75);
+    height: 114px;
+    width: 634px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.price{
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.content_min{
+    width: 194px;
+    height: 144px;
+    border-radius: 10px;
+    background: white center no-repeat;
+    position: relative;
+    box-shadow: -10px 10px 10px rgb(71, 71, 71);
+}
+
+.information2 {
+    background: rgba(94, 94, 94, 0.75);
+    width: 194px;
+    height: 46px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+}
+
+.title2{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.price2{
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.content_min1{
+    background-image: url("../img/icon/categories/pre_treino.png");
+}
+
+.content_min2{
+    background-image: url("../img/icon/categories/bcaa.png");
+}
+
+.content_min3{
+    background-image: url("../img/icon/categories/hipercalorico.png");
+}
+
+.content_min4{
+    background-image: url("../img/icon/categories/whey.png");
+}
+
+.content_min5{
+    background-image: url("../img/icon/categories/glutamina.png");
+}
+
+.content_min6{
+    background-image: url("../img/icon/categories/creatina.png");
+}
+
+.space_content{
+    margin-right: 28px;
+}
+
+.group{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.group2{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.group3{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
 

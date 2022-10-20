@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - A&G</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/header_settings.css">
+    <link rel="stylesheet" href="src/css/card_information.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class=background src="src/img/icon/user_settings.png">
+        <h2>Welcome, User</h2>
+        <section class="menu">
+            <div>
+                <img class="icon" src="src/img/icon/dashboard.png">
+                <a href="settings.html">Dashboard</a>
+            </div>
+            <div>
+                <img class="icon" src="src/img/icon/shopping.png">
+                <a>My Shopping</a>
+            </div>
+            <div>
+                <img class="icon" src="src/img/icon/card.png">
+                <a class="selection" href="card_information.html">Credit Card</a>
+            </div>
+            <div>
+                <img class="icon" src="src/img/icon/help.png">
+                <a>Help</a>
+            </div>
+            <div>
+                <img class="icon" src="src/img/icon/about_us.png">
+                <a>About Us</a>
+            </div>
+        </section>
+        <section class="log-out">
+            <img class="icon" src="src/img/icon/log_out.png">
+            <a href="login.html">Log Out</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="profile">
+            <h1><span>1 </span>CARD INFORMATION</h1>
+            <form>
+                <label>Cardholder Name</label>
+                <input class="name" type="text">
+                <label>Card Number</label>
+                <input class="card" type="text">
+            </form>
+        </section>
+        <section class="pass">
+            <form>
+                <label class="expiration">Expiration Date</label>
+                <input class="password" type="month">
+                <label>CVV Code</label>
+                <input class="cvv" type="password">
+                <div class="button">
+                    <button onclick="alert('Information Successfully Registered')">Save</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
