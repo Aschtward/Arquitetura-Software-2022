@@ -1,5 +1,5 @@
 body{
-    background-image: url('../img/Background.png');
+    background-image: url('../img/Background_Login.png');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
@@ -46,7 +46,7 @@ main{
 .box-create{
     background-color: rgba(255, 255, 255, 0.1);
     width: 444px;
-    height: 549px;
+    height: 600px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@ main{
 
 .contend{
     width: 350px;
-    height: 480px;
+    height: 550px;
 }
 
 .partition1{
@@ -95,7 +95,7 @@ border: solid 2px #C44900;
 }
 
 .sign-up a{
-    color: #953903;
+    color: #C44900;
     font-weight: bold;
     text-decoration: none;
 }
@@ -158,4 +158,10 @@ input::placeholder{
 .custom-checkbox input:checked + label::before{
     background-color: #C44900;
     background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.set{
+    position: absolute;
+    top: 425px;
+    right: 300px;
 }

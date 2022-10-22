@@ -12,8 +12,15 @@
     background-position-x: 10px;
 }
 
+.calendar{
+    background-image: url('../img/icon/Calendar_Icon.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-position-x: 10px;
+}
+
 .card{
-    background-image: url('../img/icon/card1.png');
+    background-image: url('../img/icon/card3.png');
     background-repeat: no-repeat;
     background-position:left;
     background-position-x: 10px;
@@ -22,6 +29,16 @@
 form{
     display: flex;
     flex-direction: column;
+}
+
+.content{
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    width: 1150px;
+    height: 550px;
+    margin-left: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 form input{
@@ -38,6 +55,10 @@ form input{
     display: flex;
 }
 
+.pass input{
+    width: 182px;
+}
+
 h1{
     font-size: 35px;
     margin-bottom: 50px;
@@ -52,16 +73,10 @@ label{
     margin-bottom: 15px;
 }
 
-main{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 .pass, .profile{
     height: 500px;
+    margin-left: 50px;
+    margin-top: 30px;
 }
 
 .button{
@@ -79,9 +94,9 @@ button{
     background-color: #C44900;
     height: 46px;
     width: 50%;
-    border: none;
+    border: solid 1px white;
     border-radius: 8px;
-    margin-top: 250px;
+    margin-top: 180px;
     color: white;
     font-size: 18px;
     box-shadow: -10px 10px 10px rgb(71, 71, 71) ;
@@ -93,4 +108,10 @@ button:hover{
     background-color: white;
     color:#C44900;
     border: none;
+}
+
+.marcation{
+    position: absolute;
+    top: 220px;
+    left: 283px;
 }

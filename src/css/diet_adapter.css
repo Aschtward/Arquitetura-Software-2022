@@ -1,0 +1,84 @@
+.bg_delimiter{
+    width: 1120px;
+    height: 600px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 288px;
+    top: 116px;
+}
+
+.bg_delimiter h1{
+    font-size: 20px;
+    color: #C44900;
+    font-weight: bold;
+    margin: 20px auto 20px 40px;
+}
+
+.bg_delimiter p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 60px;
+    line-height: 22px;
+}
+
+.bg_delimiter div{
+    width: 1058px;
+    height: 138px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    border: 2px solid rgb(193, 192, 192);
+    position: absolute;
+}
+
+.grid1{
+    left: 30px;
+    top: 50px;
+}
+
+.grid2{
+    left: 30px;
+    top: 340px;
+}
+
+button{
+    background-color: #C44900;
+    width: 240px;
+    height: 40.58px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    box-shadow: -10px 10px 10px rgb(71, 71, 71) ;
+    cursor: pointer;
+    transition: .3s;
+    position: absolute;
+    top: 520px;
+    left: 400px;
+
+}
+
+button:hover{
+    background-color: white;
+    color:#C44900;
+    border: solid 2px #C44900;
+}
+
+.separated{
+    width: 1058px;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 318px;
+    top: 380px;
+}
+
+.marcation{
+    position: absolute;
+    top: 265px;
+    left: 260px;
+}

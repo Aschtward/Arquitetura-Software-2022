@@ -1,0 +1,110 @@
+.bg_delimiter{
+    width: 1120px;
+    height: 550px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    position: absolute;
+    left: 288px;
+    top: 118px;
+}
+
+.style{
+    position: absolute;
+    left: 300px;
+    top: 95px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.measure{
+    display: flex;
+    flex-direction: row;
+    width: 1030.02px;
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 60px;
+    left: 45px;
+    padding-bottom: 20px;
+}
+
+.measure div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.measure div input, .text{
+    width: 65px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+.max{
+    width: 215px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 16px;
+    margin-left: 57px;
+}
+
+.info div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.info{
+    position: absolute;
+    top: 170px;
+    left: 45px;
+}
+
+.distance{
+    margin-left: 25px;
+}
+
+button{
+    background-color: #C44900;
+    width: 240px;
+    height: 55px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 90px;
+    left: 350px;
+}
+
+button:hover{
+    background-color: white;
+    color:#C44900;
+    border: solid 2px #C44900;
+}
+
+.marcation{
+    position: absolute;
+    top: 265px;
+    left: 260px;
+}

@@ -1,0 +1,138 @@
+body{
+    background-image: url("../img/background_blue.png");
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+header{
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.user_icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+header input{
+    width: 630px;
+    height: 38px;
+    border: 2px solid rgba(0, 0, 0, 0.368);
+    border-radius: 8px;
+    background: transparent;
+    background-image: url('../img/icon/search_black.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-position-x: 615px;
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.263);
+    font-weight: bold;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.263);
+    font-weight: bold;
+}
+
+.navegation{
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);    
+    width: 234px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.navegation div{
+    display: flex;
+    align-items: center;
+    width: 138px;
+    height: 37px;
+}
+
+.navegation img{
+    width: 42px;
+    height: 37px;
+}
+
+.navegation a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.home{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.home, .diet, .worksheep{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.25);
+}
+
+.diet{
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.worksheep{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.my_products{
+    margin-top: 100px;
+    padding-top: 30px;
+    border-top: 3px solid rgba(255, 255, 255, 0.25);
+}
+
+.settings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 630px;
+    left: 80px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.settings a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+

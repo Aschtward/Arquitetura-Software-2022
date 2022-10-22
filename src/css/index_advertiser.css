@@ -88,10 +88,9 @@
 
 .button{
     width: 57.26px;
-    height: 15px;
+    height: 14.32px;
     color: white;
-    font-weight: bold;
-    font-size: 10px;
+    font-size: 8px;
     background-color: #38AF00;
     border-radius: 5px;
     display: flex;
@@ -166,38 +165,6 @@ a{
     color: white;
 }
 
-.exerc{
-    width: 1120px;
-    height: 90px;
-    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-radius: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    position: absolute;
-    top: 820px;
-    left: 300px;
-}
-
-.activity{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
-}
-
-.nutri{
-    display: flex;
-    flex-direction: row;
-    width: 513.55px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .marcation{
     position: absolute;
     top: 145px;
@@ -214,10 +181,6 @@ a{
     position: absolute;
     left: 680px;
     top: 240px;
-}
-
-.space{
-    margin-top: 10px;
 }
 
 .activity_icon{

@@ -1,5 +1,5 @@
 body{
-    background-image: url("../img/Background_User.png");
+    background-image: url("../img/background_blue.png");
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -45,16 +45,20 @@ header p{
     flex-direction: column;
     justify-content:start;
     border-radius: 20px;
-    margin-top: 65px;
     margin-left: 30px;
 }
 
 .elements div{
     display: flex;
-    justify-content:flex-start;
     align-items: center;
     margin-left: 35px;
-    margin-bottom: 30px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.border {
+    border-top: solid 3px rgba(255, 255, 255, 0.25);
 }
 
 .elements div img{
@@ -71,28 +75,32 @@ header p{
 
 .top{
     margin-top: 35px;
-    border-right: 8px solid #C44900;
 }
 
 main{
     display: flex;
     flex-direction: row;
+    justify-content:center;
+    margin-top: 50px;
 }
 
 .log_out{
     display: flex;
+    font-weight: bold;
     flex-direction: row;
     align-items: center;
     margin-top: 45px;
     margin-left: 80px;
 }
 
-.content{
-    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
-    width: 1150px;
-    height: 550px;
-    margin-top: 65px;
-    margin-left: 30px;
-    border-radius: 20px;
+.return{
+    margin-top: 140px;
+}
+
+.way{
+    font-weight: bold;
+    position: absolute;
+    top: 95px;
+    left: 350px;
 }
 

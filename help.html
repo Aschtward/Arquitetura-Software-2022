@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings - A&G</title>
+    <title>Help - A&G</title>
     <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/settings.css">
     <link rel="stylesheet" href="src/css/header_settings.css">
+    <link rel="stylesheet" href="src/css/help.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -28,6 +28,7 @@
                     <div class="top">
                         <img class="icon" src="src/img/icon/dashboard.png">
                         <a class="selection" href="settings.html">Basic Info</a>
+                        <p></p>
                     </div>
                     <div class="border">
                         <img class="icon" src="src/img/icon/card3.png">
@@ -53,32 +54,18 @@
             </div>
         </section>
         <section class="content">
-            <p class="way">Settings > Basic Info</p> 
-            <div>
-                <h1><span>1 </span>PROFILE</h1>
-                <form>
-                    <label>First Name</label>
-                    <input class="name" type="text">
-                    <label>Last Name</label>
-                    <input class="last-name" type="text">
-                    <label class="label-mail">Your Email</label>
-                    <input class="mail" type="mail">
-                    <label>Country, City</label>
-                    <input class="country" type="text">
-                    <button onclick="alert('Information Successfully Registered !')">Update Profile</button>
-                </form>
+            <p class="way">Settings > Help</p>
+            <div class="group">
+                <h1>Welcome! How can we help?</h1>
+                <input type="text" placeholder="Search ...">
+                <p>Popular searches : Payment, Sell, Ad</p>
             </div>
-            <div>
-                <h1><span>2 </span>PASSWORD</h1>
-                <form>
-                    <label>New Password</label>
-                    <input class="password" type="password">
-                    <label>Confirm new Password</label>
-                    <input class="confir-pass" type="password">
-                </form>
+            <div class="group2">
+                <img src="src/img/icon/Answer.png">
+                <h2>FAQ & Troubleshooting</h2>
+                <p>Have a question about something <br>specific? Find the answer here</p>
             </div>
-        </section>
+        </section>    
     </main>
 </body>
-
 </html>

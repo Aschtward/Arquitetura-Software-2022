@@ -1,0 +1,116 @@
+.bg_delimiter{
+    width: 1120px;
+    height: 800px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 288px;
+    top: 116px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+.page{
+    width: 970px;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 65px;
+    top: 120px;
+}
+
+.shopp{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 26px;
+    left: 65px;
+}
+
+.product{
+    width: 970px;
+    height: 135px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    border: 2px solid rgb(193, 192, 192);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image{
+    width: 153.97px;
+    height: 115px;
+    background-image: url("../img/icon/categories/p_treino.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tittle{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.information{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.grid{
+    width: 1054.06px;
+    height: 628px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+
+.tag1, .tag2, .tag3, .tag4{
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+}
+
+.tag1{
+    left: 160px;
+}
+
+.tag2{
+    left: 350px;
+}
+
+.tag3{
+    right: 265px;
+}
+
+.tag4{
+    right: 170px;
+}
+
+.marcation{
+    position: absolute;
+    top: 510px;
+    left: 260px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

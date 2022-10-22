@@ -1,5 +1,5 @@
 body{
-    background-image: url('../img/Background.png');
+    background-image: url('../img/Background_Login.png');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
@@ -114,11 +114,20 @@ form button:hover{
 }
 
 footer a{
-    color: #953903;
+    color: #C44900;
     font-weight: bold;
     text-decoration: none;
 }
 
 .link_center{
     text-align: center;
+}
+
+.show_pass{
+    position: absolute;
+    top: 366px;
+    right: 600px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #C44900;
 }

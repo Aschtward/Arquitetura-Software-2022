@@ -1,0 +1,122 @@
+.categories{
+    width: 1120px;
+    height: 62px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    box-shadow: -5px 5px 10px rgb(71, 71, 71);
+    margin: 40px auto 20px auto;
+}
+
+.categories a{
+    margin-left: 20px;
+}
+
+.bg_delimiter{
+    width: 1120px;
+    height: 660px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group{
+    display: flex;
+}
+
+.product_min{
+    width: 141px;
+    height: 160px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    width: 57.26px;
+    height: 14.32px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #38AF00;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 115px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h3, .price{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.bcaa img{
+    width: 37.46px;
+    height: 58px;
+}
+
+.price{
+    color: #484848;
+    margin-top: 5px;
+}
+
+.bcaa{
+    background-image: url("../img/icon/categories/bcaa_icon.png");
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.style{
+    position: absolute;
+    left: 300px;
+    top: 83px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.division1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    width: 996px;
+    height: 550px;
+}
+
+h1{
+    border-bottom: 2px solid white;
+    width: 980px;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 220px;
+    padding-bottom: 15px;
+}
+
+.page{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 235px;
+    right: 150px;
+}
