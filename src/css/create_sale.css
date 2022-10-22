@@ -1,0 +1,213 @@
+.bg_delimiter{
+    width: 1120px;
+    height: 860px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    position: absolute;
+    left: 288px;
+    top: 116px;
+}
+
+.tittle{
+    font-size: 28px;
+    font-weight: bold;
+    width: 1015px;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+.tittle img{
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #C44900;
+}
+
+.input1{
+    width: 452px;
+    height: 46px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: white;
+    font-size: 16px;
+}
+
+.input2{
+    width: 452px;
+    height: 300px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.input3{
+    width: 70px;
+    height: 49px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    padding-left: 30px;
+}
+
+button{
+    background-color: #C44900;
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: white;
+    color:#C44900;
+    border: solid 2px #C44900;
+}
+
+.edit{
+    width: 100px;
+    height: 88px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+}
+
+.group1{
+    position: absolute;
+    left: 50px;
+    top: 120px;
+}
+
+.group2{
+    position: absolute;
+    left: 600px;
+    top: 120px;
+}
+
+.group2 form{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.group2 p{
+    margin-right: 20px;
+}
+
+.input4, .input5{
+    width: 130px;
+    height: 46px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding-left: 30px;
+    margin-left: 10px;
+    color: white;
+}
+
+.custom-checkbox input{
+    display: none;
+}
+
+.custom-checkbox input + label:before{
+    content: '';
+    width: 26px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: rgba(170, 170, 170, 0.2);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    box-shadow: 0 3px 5px rgb(45, 44, 44);
+}
+
+.custom-checkbox input:checked + label::before{
+    background-color: #C44900;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.group3{
+    position: absolute;
+    left: 600px;
+    top: 320px;
+}
+
+.save{
+        background-color: #C44900;
+        width: 240px;
+        height: 55px;
+        border: 2px solid white;
+        border-radius: 8px;
+        color: white;
+        font-size: 20px;
+        margin-top: 25px;
+        cursor: pointer;
+        transition: .3s;
+        margin-bottom: 20px;
+        position: absolute;
+        bottom: 50px;
+        right: 150px;
+}
+
+.marcation{
+    position: absolute;
+    top: 245px;
+    left: 260px;
+}

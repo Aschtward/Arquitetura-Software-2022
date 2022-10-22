@@ -1,0 +1,194 @@
+.categories{
+    width: 1120px;
+    height: 62px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    box-shadow: -5px 5px 10px rgb(71, 71, 71);
+    margin: 40px auto 20px auto;
+}
+
+.categories a{
+    margin-left: 20px;
+}
+
+.bg_delimiter{
+    width: 1120px;
+    height: 590px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_max{
+    width: 698px;
+    height: 340px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.whey{
+    background-color: white;
+    height: 227px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url("../img/icon/categories/whey_blue.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info_max{
+    width: 100%;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.info_max h1{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info_max p{
+    font-size: 16px;
+    color: #484848;
+    font-weight: bold;
+}
+
+.product_min{
+    width: 141px;
+    height: 160px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    width: 115px;
+    height: 75px;
+    background-color: white;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bcaa img{
+    width: 37.46px;
+    height: 58px;
+}
+
+.button{
+    width: 57.26px;
+    height: 14.32px;
+    color: white;
+    font-size: 8px;
+    background-color: #38AF00;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3, .price{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.price{
+    color: #484848;
+    margin-top: 5px;
+}
+
+.group2{
+    display: flex;
+    flex-direction: row;
+}
+
+.group3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.group4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.group{
+    display: flex;
+}
+
+.bcaa{
+    background-image: url("../img/icon/categories/bcaa_icon.png");
+}
+
+.glutamina{
+    background-image: url("../img/icon/categories/glutamina_icon.png");
+}
+
+.creatina{
+    background-image: url("../img/icon/categories/creatina_icon.png");
+}
+
+.p_treino{
+    background-image: url("../img/icon/categories/pre_treino_icon.png");
+}
+
+.style{
+    position: absolute;
+    left: 300px;
+    top: 83px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.groups{
+    width: 800px;
+    height: 530px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.marcation{
+    position: absolute;
+    top: 145px;
+    left: 260px;
+}
+
+.promotion{
+    position: absolute;
+    left: 458px;
+    top: 182px;
+}
+
+.promotion2{
+    position: absolute;
+    left: 680px;
+    top: 240px;
+}
+
+.activity_icon{
+    mix-blend-mode: luminosity;
+}
+
+.expand{
+    position: absolute;
+    bottom: -50px;
+    right: 90px;;
+}

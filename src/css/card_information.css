@@ -1,0 +1,117 @@
+.cvv{
+    background-image: url('../img/icon/password.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-position-x: 10px;
+}
+
+.name{
+    background-image: url('../img/icon/user.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-position-x: 10px;
+}
+
+.calendar{
+    background-image: url('../img/icon/Calendar_Icon.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-position-x: 10px;
+}
+
+.card{
+    background-image: url('../img/icon/card3.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-position-x: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    width: 1150px;
+    height: 550px;
+    margin-left: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+form input{
+    background-color: rgba(255, 255, 255, 0);
+    height: 36px;
+    width: 295px;
+    color: white;
+    font-size: 16px;
+    outline: 0;
+    border: solid 1px white;
+    border-radius: 8px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.pass input{
+    width: 182px;
+}
+
+h1{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+span{
+    color: #C44900;
+    font-weight: bold;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+.pass, .profile{
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.button{
+    height: 46px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.expiration{
+    margin-top: 85px;
+}
+
+button{
+    background-color: #C44900;
+    height: 46px;
+    width: 50%;
+    border: solid 1px white;
+    border-radius: 8px;
+    margin-top: 180px;
+    color: white;
+    font-size: 18px;
+    box-shadow: -10px 10px 10px rgb(71, 71, 71) ;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: white;
+    color:#C44900;
+    border: none;
+}
+
+.marcation{
+    position: absolute;
+    top: 220px;
+    left: 283px;
+}

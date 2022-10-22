@@ -1,0 +1,145 @@
+.bg_delimiter{
+    width: 1120px;
+    height: 600px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    position: absolute;
+    left: 288px;
+    top: 116px;
+}
+
+.grid{
+    position: absolute;
+    top: 130px;
+    left: 28px;
+}
+
+.product{
+    width: 1062px;
+    height: 40px;
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product input, .table input{
+    width: 16px;
+    height: 16px;
+}
+
+.price{
+    color: #252C32;
+    font-weight: bold;
+}
+
+.progress{
+    width: 87px;
+    height: 24px;
+    background-color: #959595;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.progress img{
+    margin-top: 5px;
+}
+
+.name{
+    font-size: 16px;
+    color: #252C32;
+}
+
+.table{
+    width: 1062px;
+    height: 40px;
+    border-top: 2px solid white;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.table input{
+    margin-left: 35px;
+}
+
+.value{
+    margin-left: 70px;
+    margin-right: 300px;
+}
+
+.name_product{
+    margin-right: 140px;
+}
+
+.name_categorie{
+    margin-right: 60px;
+}
+
+.in_progress{
+    position: absolute;
+    top: 100px;
+    left: 28px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.my{
+    position: absolute;
+    left: 28px;
+    top: 30px;
+    font-size: 36px;
+}
+
+.button{
+    width: 89.67px;
+    height: 29.89px;
+    background-color: white;
+    color: #252C32;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #DDE2E4;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+form button{
+    background-color: #C44900;
+    width: 128px;
+    height: 32px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+form button:hover{
+    background-color: white;
+    color:#C44900;
+    border: solid 2px #C44900;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 90px;
+    right: 28px;
+}
+
+.marcation{
+    position: absolute;
+    top: 345px;
+    left: 260px;
+}

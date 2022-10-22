@@ -1,0 +1,316 @@
+.categories{
+    width: 1120px;
+    height: 62px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    box-shadow: -5px 5px 10px rgb(71, 71, 71);
+    margin: 40px auto 20px auto;
+    position: absolute;
+    height: 56px;
+    left: 288px;
+    top: 75px;
+}
+
+.categories a{
+    margin-left: 20px;
+}
+
+.way{
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 288.01px;
+    top: 200px;
+}
+
+.whey_min{
+    background-image: url("../img/icon/categories/whey_products_small.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 75.72px;
+    height: 59px;
+    left: 311.01px;
+    top: 230px;
+    background-color: rgba(241, 242, 244, 1);
+    border-radius: 5px;
+}
+
+.whey_max {
+    background-image: url("../img/icon/categories/whey_products.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    border-radius: 5px;
+    width: 326.15px;
+    height: 302px;
+    left: 404.64px;
+    top: 230px;
+}
+
+.options {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px rgba(228, 228, 231, 1);
+    position: absolute;
+    width: 480px;
+    height: 45px;
+    left: 288px;
+    top: 552px;
+}
+
+.mark_black{
+    position: absolute;
+    left: 225px;
+    top: 45px;
+}
+
+.icon{
+    position: absolute;
+    left: 290px;
+    top: 630px;
+}
+
+.star{
+    position: absolute;
+    left: 339px;
+    top: 630px;
+}
+
+.comments{
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    left: 341px;
+    top: 660px;
+}
+
+.name{
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 341px;
+    top: 700px;
+}
+
+.date{
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 341px;
+    top: 720px;
+    color: #333333;
+}
+
+.separated {
+    width: 480px;
+    border-bottom: solid 2px rgba(228, 228, 231, 1);
+    position: absolute;
+    left: 289px;
+    top: 750px;
+}
+
+.icon2{
+    position: absolute;
+    left: 290px;
+    top: 780px;
+}
+
+.star2{
+    position: absolute;
+    left: 339px;
+    top: 780px;;
+}
+
+.comments2{
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    left: 341px;
+    top: 810px;
+}
+
+.name2{
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 341px;
+    top: 848px;
+}
+
+.date2{
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 341px;
+    top: 868px;
+    color: #333333;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    left: 810.01px;
+    top: 230px;
+}
+
+.star3{
+    position: absolute;
+    left: 810.01px;
+    top: 300px;
+}
+
+.review{
+    position: absolute;
+    left: 890px;
+    top: 300px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.price{
+    color: #039900;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    left: 810.01px;
+    top: 350px;
+}
+
+.tag{
+    position: absolute;
+    left: 810.01px;
+    top: 395px;
+}
+
+.tag_info{
+    position: absolute;
+    left: 835px;
+    top: 393px;
+    color: gray;
+    font-size: 14px;
+}
+
+.black, .flavor{
+    color: black;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: bold;
+    width: 112px;
+    height: 80px;
+    position: absolute;
+    left: 810.01px;
+    top: 416px;
+}
+
+.flavor{
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 810.01px;
+    top: 526px;
+}
+
+.flavors p{
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.flavors{
+    width: 568px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    left: 810.01px;
+    top: 556px;
+}
+
+.mark_black2{
+    position: absolute;
+    left: 852px;
+    top: 598px;
+}
+
+button{
+    background-color: rgba(196, 73, 0, 1);
+    width: 239.27px;
+    height: 42.22px;
+    border-radius: 5px;
+    border: solid 2px white;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: white;
+    color:#C44900;
+    border: solid 2px #C44900;
+}
+
+.heart{
+    width: 59.52px;
+    height: 38px;
+    border-radius: 5px;
+    border: solid 2px white;
+    background-image: url("../img/icon/categories/heart.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 20px;
+}
+
+.click{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 810.01px;
+    top: 645px;
+}
+
+.information{
+    position: absolute;
+    left: 810.01px;
+    top: 736.18px;
+    font-weight: bold;
+}
+
+.information div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.information div img{
+    margin-right: 20px;
+    width: 17px;
+    height: 17.68px;
+}
+
+
+
+

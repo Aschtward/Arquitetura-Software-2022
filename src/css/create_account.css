@@ -5,39 +5,99 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: white;
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 header{
-    margin: 50px auto;
+    width: 592px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+}
+
+.contend1{
+    width: 440px;
+}
+
+.contend1 img{
+    margin: 25px 0 35px -10px;
+}
+
+.contend1 h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.contend1 p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
 }
 
 main{
-    width: 444px;
-    height: 423px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    box-shadow: -10px 10px 10px rgb(71, 71, 71) ;
+    width: 900px;
+    height: 710px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 35px;
+}
+
+.box-create{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 444px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -10px 10px 10px rgb(71, 71, 71) ;
 }
 
 .contend{
     width: 350px;
-    height: 350px;
+    height: 550px;
 }
 
-.contend h1, .contend p, .link_center{
-    margin: 15px auto;
+.partition1{
+    margin-bottom: 50px;
 }
 
-.contend h1{
+.partition1 h2{
     font-size: 32px;
     font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form button{
+    background-color: #C44900;
+    width: 100%;
+    height: 59px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: -10px 10px 10px rgb(71, 71, 71) ;
+    cursor: pointer;
+    transition: .3s;
+}
+
+form button:hover{
+background-color: white;
+color:#C44900;
+border: solid 2px #C44900;
+}
+
+.sign-up{
+    text-align: center;
+}
+
+.sign-up a{
+    color: #C44900;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 form input{
@@ -50,7 +110,7 @@ form input{
     border: solid 1px white;
     border-radius: 8px;
     padding-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .mail{
@@ -61,7 +121,14 @@ form input{
 }
 
 .password{
-    background-image: url('../img/icon/password.png');
+        background-image: url('../img/icon/password.png');
+        background-repeat: no-repeat;
+        background-position:left;
+        background-position-x: 10px;
+}
+
+.name{
+    background-image: url('../img/icon/user.png');
     background-repeat: no-repeat;
     background-position:left;
     background-position-x: 10px;
@@ -93,41 +160,8 @@ input::placeholder{
     background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-form button{
-    background-color: #C44900;
-    width: 100%;
-    height: 40.58px;
-    border: 1px solid white;
-    border-radius: 8px;
-    color: white;
-    font-size: 20px;
-    margin-top: 25px;
-    box-shadow: -10px 10px 10px rgb(71, 71, 71) ;
-    cursor: pointer;
-    transition: .3s;
-}
-
-form button:hover{
-    background-color: white;
-    color:#C44900;
-    border: solid 2px #C44900;
-}
-
-footer a{
-    color: #C44900;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.link_center{
-    text-align: center;
-}
-
-.show_pass{
+.set{
     position: absolute;
-    top: 366px;
-    right: 600px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #C44900;
+    top: 425px;
+    right: 300px;
 }

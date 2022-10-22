@@ -1,0 +1,65 @@
+.content{
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    width: 1150px;
+    height: 550px;
+    margin-left: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information{
+    width: 600px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.information h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #101828;
+}
+
+.orange{
+    color: #C44900;
+    font-weight: bold;
+}
+
+h2{
+    color: #101828;
+    font-weight: bold;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 280px;
+    height: 148px;
+}
+
+.group{
+    width: 74%;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.top{
+    margin-top: 20px;
+}
+
+.marcation{
+    position: absolute;
+    top: 318px;
+    left: 283px;
+}

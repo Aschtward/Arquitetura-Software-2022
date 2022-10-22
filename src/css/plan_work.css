@@ -1,0 +1,113 @@
+.bg_delimiter{
+    width: 1120px;
+    height: 754px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    position: absolute;
+    left: 288px;
+    top: 118px;
+    display: flex;
+    flex-direction: column;
+}
+
+.style{
+    position: absolute;
+    left: 300px;
+    top: 95px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.marcation{
+    position: absolute;
+    top: 330px;
+    left: 260px;
+}
+
+button{
+    background-color: #C44900;
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .3s;
+    position: absolute;
+    left: 58px;
+    top: 200px;
+}
+
+button:hover{
+    background-color: white;
+    color:#C44900;
+    border: solid 2px #C44900;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: #C44900;
+    margin: 50px;
+}
+
+.bg_delimiter form{
+    width: 1000px;
+    height: 77px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 130px;
+    left: 58px;
+}
+
+input{
+    border: 2px solid white;
+    background-color: transparent;
+    height: 37px;
+    border-radius: 5px;
+    color: white;
+}
+
+.input1{
+    width: 242px;
+}
+
+.input2{
+    width: 107px;
+}
+
+.space{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.name, .series, .rep{
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    top: 100px;
+}
+
+.name{
+    left: 58px;
+}
+
+.series{
+    left: 360px;
+}
+
+.rep{
+    left: 525px;
+}
+
+.delete{
+    position: absolute;
+    top: 150px;
+    right: 80px;
+}
