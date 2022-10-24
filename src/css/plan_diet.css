@@ -1,0 +1,222 @@
+.bg_delimiter{
+    width: 1120px;
+    height: 680px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 10px;
+    position: absolute;
+    left: 288px;
+    top: 118px;
+}
+
+.bg_delimiter2{
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(193, 192, 192);
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+.style{
+    position: absolute;
+    left: 300px;
+    top: 95px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.marcation{
+    position: absolute;
+    top: 265px;
+    left: 260px;
+}
+
+.bg_delimiter2{
+    width: 1068px;
+    height: 131px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.orange{
+    color: #C44900;
+}
+
+.min{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.max{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.green{
+    color: #008C16;
+}
+
+.blue{
+    color: #05228B;
+}
+
+.red{
+    color: #AC0000;
+}
+
+.yellow{
+    color: #8F8A02;
+}
+
+.bg_delimiter3{
+    display: flex;
+    flex-direction: row;
+}
+
+.space1{
+    margin-top: 40px;
+}
+
+.space2{
+    border-right: 2px solid rgba(255, 255, 255, 0.25);
+    padding-right: 40px;
+    margin-left: 50px;
+}
+
+.space3{
+    margin-left: 50px;
+}
+
+.space4{
+    margin-bottom: 20px;
+}
+
+.min_font{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.space5{
+    border-right: 2px solid rgba(255, 255, 255, 0.25);
+    border-left: 2px solid rgba(255, 255, 255, 0.25);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bg_delimiter4{
+    width: 1068px;
+    height: 315px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border: 2px solid rgb(193, 192, 192);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    left: 25px;
+}
+
+.grid p, .grid2 p{
+    margin-bottom: 20px;
+}
+
+
+.bg_delimiter4 img{
+    width: 278px;
+    height: 239px;
+    border-radius: 15px;
+    border: 2px solid rgb(193, 192, 192);
+}
+
+.grid2 img{
+    width: 694px;
+    height: 239px;
+}
+
+.bg_delimiter5{
+    width: 1068px;
+    height: 131px;
+    border: 2px solid rgb(193, 192, 192);
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+}
+
+button{
+    background-color: #C44900;
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: white;
+    color:#C44900;
+    border: solid 2px #C44900;
+}
+
+.grid3 h3{
+    width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+
+.grid3 p{
+    font-size: 10px;
+    color: #4F4F4F;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.grid3{
+    width: 278px;
+    height: 99px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 15px;
+    border: 2px solid rgb(193, 192, 192);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grid4{
+    width: 112px;
+    height: 99px;
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    border-radius: 15px;
+    border: 2px solid rgb(193, 192, 192);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.grid4 h3{
+    margin-top: 10px;
+}
+
+

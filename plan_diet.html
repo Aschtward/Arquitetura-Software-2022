@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diet - A&G</title>
+    <title>Plan Diet - A&G</title>
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/header_main.css">
-    <link rel="stylesheet" href="src/css/diet.css">
+    <link rel="stylesheet" href="src/css//plan_diet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -47,41 +47,62 @@
             <img src="src/img/icon/settings.png">
             <a href="settings.html">Settings</a>
         </div>
-
         <div class="bg_delimiter">
-
-            <div class="measure">
-                <div>
-                    <p>Age</p>
-                    <input type="text" placeholder="22">
+            <div class="bg_delimiter2">
+                <div class="space2">
+                    <p class="orange min">Calories Total</p>
+                    <p class="orange max space1">2300 kcal</p>
                 </div>
-                <div>
-                    <p>Height</p>
-                    <input type="text" placeholder="5,8Ft">
+                <div class="space2">
+                    <p class="green min">Calories Remaing</p>
+                    <p class="green max space1">842 kcal</p>
                 </div>
-                <div>
-                    <p>Weight</p>
-                    <input type="text" placeholder="154Ib">
+                <div class="space3">
+                    <p class="blue min space4">Macronutrient’s Remaing</p>
+                    <div class="bg_delimiter3">
+                        <div>
+                            <p class="min_font">Carbohydrates</p>
+                            <p class="green max">25g</p>
+                        </div>
+                        <div class="space5">
+                            <p class="min_font">Proteins</p>
+                            <p class="red max">35g</p>
+                        </div>
+                        <div>
+                            <p class="min_font">Fats</p>
+                            <p class="yellow max">10g</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="info">
-                <div>
-                    <p>What is your goal ?</p>
-                    <input class="max" type="text" placeholder="...">
+            <div class="bg_delimiter4">
+                <div class="grid">
+                    <p>Maconutrietion Graph</p>
+                    <img src="src/img/icon/graphic.png">
                 </div>
-                <div>
-                    <p>What is your weight goal?</p>
-                    <input class="text" type="text" placeholder="0">
+
+                <div class="grid2">
+                    <p>Additional Information</p>
+                    <img src="src/img/icon/information.png">
                 </div>
-                <div>
-                    <p>How many meals daily?</p>
-                    <input class="text distance" type="text" placeholder="0">
+            </div>
+            <div class="bg_delimiter5">
+                <div class="grid3">
+                    <h3>Last meal</h3>
+                    <p>1 posta de peixe ensopado + 1 prato de 
+                        salada com<br>2 col de sopa de grão de bico, 
+                        tomate, pepino,<br>cebola e alface, temperada 
+                        com 1 col sobremes ...
+                    </p>
+                </div>
+
+                <div class="grid4">
+                    <h3>Add Meal</h3>
+                    <button type="submit">+</button>
                 </div>
             </div>
         </div>
-        <form action="plan_diet.html">
-            <button type="submit" class="save">Generate</button>
-        </form>
     </main>
+    
 </body>
 </html>
