@@ -1,0 +1,67 @@
+.content{
+    background: radial-gradient(102.98% 2129.71% at 0% 102.98%, rgba(20, 48, 102, 0.225) 0%, rgba(83, 83, 83, 0.24) 21.88%, rgba(229, 85, 0, 0.135) 99.48%, rgba(229, 85, 0, 0.135) 99.49%);
+    width: 1150px;
+    height: 550px;
+    margin-left: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    width: 630px;
+    height: 38px;
+    border: 2px solid rgba(0, 0, 0, 0.368);
+    border-radius: 8px;
+    background: transparent;
+    background-image: url('../img/icon/search_black.png');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-position-x: 615px;
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.263);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.263);
+    font-weight: bold;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.group p, h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.group2{
+    width: 332px;
+    height: 204px;
+    border: 2px solid rgba(0, 0, 0, 0.263);
+    border-radius: 8px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.marcation{
+    position: absolute;
+    top: 280px;
+    left: 283px;
+}
